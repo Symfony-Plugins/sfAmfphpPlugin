@@ -1,0 +1,10 @@
+autoload:
+  amfphp_addon:
+    name:           amfphp addon
+    files:
+      Gateway:       %SF_PLUGINS_DIR%/sfAmfphpPlugin/lib/amfphp/sfAmfphpAutoload.php
+      
+  amfphp_gateway:
+    name:           amfphp gateway
+    files:
+      sfAmfphpGateway:       %SF_PLUGINS_DIR%/sfAmfphpPlugin/lib/amfphp/sfAmfphpGateway.class.php
